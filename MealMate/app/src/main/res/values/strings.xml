@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MealMate</string>
+    <string name="meal">Meal</string>
+    <string name="mate">Mate</string>
+    <string name="add_btn">ADD</string>
+    <string name="people_qty_id">1</string>
+    <string name="edit_btn">EDIT</string>
+    <string name="people_txt_id">People</string>
+    <string name="ingredient_name">Ingredient Name</string>
+    <string name="Ing_qty_id">Qty:</string>
+    <string name="start_recommending">Start Recommending</string>
+    <string name="login">LOGIN</string>
+    <string name="register">New? CREATE ACCOUNT</string>
+    <string name="or_sign_in_using">OR SIGN IN USING   </string>
+
+    <!--    DAY NAMES    -->
+    <string name="sunday">SUN</string>
+    <string name="monday">MON</string>
+    <string name="tuesday">TUE</string>
+    <string name="wednesday">WED</string>
+    <string name="thursday">THUR</string>
+    <string name="friday">FRI</string>
+    <string name="saturday">SAT</string>
+
+    <string name="no_of_people">No of people</string>
+    <string name="subtract_btn">SUBTRACT</string>
+    <string name="ingt_qty_num">0</string>
+    <string name="ingt_qty_unit">units</string>
+    <string name="forward_btn">forward_btn</string>
+    <string name="back_btn">back_btn</string>
+    <string name="category_name">Category Name</string>
+    <string name="selected_ingredients">Selected Ingredients</string>
+=======
+>>>>>>> 98783f4ce69f6ef67e1a61dd0eff36dc37bec91d
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="register_text">REGISTER</string>
+    <string name="validating">Validating...</string>
+</resources>

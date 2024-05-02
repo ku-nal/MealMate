@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Dropdown list for meal types -->
+    <Spinner
+        android:id="@+id/spinnerMealTypes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Button to add a new meal type -->
+    <Button
+        android:id="@+id/btnAddMealType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerMealTypes"
+        android:layout_marginTop="8dp"
+        android:text="Add New Meal Type"/>
+
+
+
+    <!-- Button to open recipe search screen or fragment -->
+    <Button
+        android:id="@+id/btnSearchRecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAddMealType"
+        android:layout_marginTop="8dp"
+        android:text="Search Recipe"/>
+
+    <!-- Serving size field for the chosen recipe -->
+    <EditText
+        android:id="@+id/etServingSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSearchRecipe"
+        android:layout_marginTop="16dp"
+        android:hint="Serving Size"/>
+
+    <!-- Button to save the meal plan -->
+    <Button
+        android:id="@+id/btnSaveMealPlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etServingSize"
+        android:layout_marginTop="16dp"
+        android:text="Save Meal Plan"/>
+
+    <!-- Button to cancel -->
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSaveMealPlan"
+        android:layout_marginTop="8dp"
+        android:text="Cancel"/>
+
+</RelativeLayout>
